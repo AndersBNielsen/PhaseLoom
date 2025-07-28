@@ -7,7 +7,7 @@
 	(title_block
 		(title "PhaseLoom")
 		(date "2025-06-05")
-		(rev "A")
+		(rev "v1.1")
 		(company "iMania.dk")
 		(comment 1 "Quadrature Sampling Detector  Phase Locked Loop LO Synthesizer SDR Frontend")
 	)
@@ -5036,6 +5036,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 62.23) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d91f96-329d-4adb-b048-64cbededff27")
+	)
+	(wire
+		(pts
 			(xy 228.6 63.5) (xy 231.14 63.5)
 		)
 		(stroke
@@ -5213,16 +5223,6 @@
 			(type default)
 		)
 		(uuid "1ff9bd91-9b9e-45b8-b541-c7a208b17056")
-	)
-	(wire
-		(pts
-			(xy 160.02 62.23) (xy 160.02 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20be46ef-6542-4a14-a457-8c5bb1f531c1")
 	)
 	(wire
 		(pts
@@ -5516,7 +5516,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 80.01) (xy 154.94 90.17)
+			(xy 161.29 80.01) (xy 161.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5626,13 +5626,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 161.29 90.17)
+			(xy 160.02 90.17) (xy 161.29 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44a1a5fb-8972-4ed9-8486-479681b10de0")
+		(uuid "44e87e1e-01d5-4b4b-b440-2cea56553cbb")
 	)
 	(wire
 		(pts
@@ -6233,16 +6233,6 @@
 			(type default)
 		)
 		(uuid "7b51a285-ff5a-44d2-8b9e-bb97f43f2bb8")
-	)
-	(wire
-		(pts
-			(xy 161.29 64.77) (xy 160.02 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bad6a86-496e-4bdf-84c1-5d2581b5ed40")
 	)
 	(wire
 		(pts
@@ -7176,7 +7166,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 154.94 80.01)
+			(xy 146.05 80.01) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +7845,7 @@
 	)
 	(text "270"
 		(exclude_from_sim no)
-		(at 107.95 70.104 0)
+		(at 108.204 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7885,7 +7875,7 @@
 	)
 	(text "180"
 		(exclude_from_sim no)
-		(at 108.204 67.564 0)
+		(at 108.204 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7938,7 +7928,7 @@
 		(uuid "22af5a1e-1dcb-473c-b9c8-2fb3143dea32")
 	)
 	(label "Q-"
-		(at 134.62 80.01 0)
+		(at 134.62 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7960,7 +7950,7 @@
 		(uuid "5c8aa663-91f3-4ea2-ab8a-63512f056b95")
 	)
 	(label "I-"
-		(at 134.62 67.31 0)
+		(at 134.62 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7970,7 +7960,7 @@
 		)
 		(uuid "774ee6e6-9f02-406d-88dd-bf754a683b66")
 	)
-	(label "LO"
+	(label "CLK0"
 		(at 88.9 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7981,7 +7971,7 @@
 		)
 		(uuid "90bfea9c-da9b-4379-a748-6aed98992101")
 	)
-	(label "LO"
+	(label "CLK0"
 		(at 147.32 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7992,7 +7982,7 @@
 		)
 		(uuid "982f5953-7a72-4cad-8c19-f81d3a5a8245")
 	)
-	(label "+90"
+	(label "CLK1"
 		(at 146.05 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8014,7 +8004,7 @@
 		)
 		(uuid "acc8628c-97be-4487-a975-c68c40df298d")
 	)
-	(label "+90"
+	(label "CLK1"
 		(at 88.9 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8803,7 +8793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LO_CLK"
+		(property "Value" "LO_CLK+90"
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -10725,7 +10715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LO_CLK+90"
+		(property "Value" "LO_CLK"
 			(at 175.26 141.732 0)
 			(effects
 				(font
