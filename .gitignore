@@ -27,3 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+.DS_Store
+~PhaseLoom.kicad_sch.lck
+~$SI5351_PLL_Calc_Formulas.xlsx
