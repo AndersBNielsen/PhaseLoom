@@ -45,6 +45,21 @@ The PhaseLoom is designed as an Arduino-style shield for the 65uino, the smalles
 ## How to Use
 [6502 source code still lives over on the 65uino project](https://github.com/AndersBNielsen/65uino/)
 
+The main 65uino firmware currently comes with support for the PhaseLoom built in. Assemble a recent binary and you're good to go. 
+
+The 65uino automatically detects the si5351 and goes into SDR mode, that let's you use the buttons and LED's on the PhaseLoom to tune the channels. 
+
+Leftmost button(1): Channel down
+Second button: Unused
+Third button: Unused
+Fourth button: Channel up
+Rightmost button: Tune to selected channel.
+
+LED's show the current channel as a binary count. 
+
+To change the available channels update the source code using the Excel spreadsheet to get new byte values for the lookup tables - let me know if you'd like to see a video about that. 
+
+## Other host hardware?
 Want to use the PhaseLoom with something that's not a 6502 computer? Go right ahead and use it with anything that does i2c - even better something that already has an si5351 library. 
 
 ## Images
