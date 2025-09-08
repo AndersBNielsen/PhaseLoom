@@ -38,7 +38,9 @@ The PhaseLoom is designed as an Arduino-style shield for the 65uino, the smalles
 - `images/`: Photos and renders of PCB versions
 - `jlcpcb/`: Manufacturing files for JLCPCB
   - `gerber/`: Gerber files for PCB fabrication
-  - `production_files/`: BOM, CPL, and zipped Gerber files
+- `GRC/`: GNU Radio Companion flowgraphs
+  - `Aliasing_example.grc`: Demonstrates aliasing effects and IQ sampling
+  - `PhaseLoom.grc`: Flowgraph for PhaseLoom SDR frontend
 - `PhaseLoom-backups/`: Backup archives of project versions
 - `SI5351_PLL_Calc_Formulas.xlsx`: PLL calculation formulas
 
