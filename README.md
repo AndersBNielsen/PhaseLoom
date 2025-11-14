@@ -1,6 +1,7 @@
 # PhaseLoom
 
 PhaseLoom is a unique Software Defined Radio (SDR) frontend built around the legendary MOS Technology 6502 CPU, celebrating its 50th anniversary. This project combines classic computing with modern SDR techniques, offering a hands-on platform for radio experimentation and development.
+Update: The PhaseLoom now has a companion ADC board with antialiasing filter, the [PhaseLatch Mini](https://github.com/AndersBNielsen/PhaseLatchMini)!
 
 ## Purchase
 
